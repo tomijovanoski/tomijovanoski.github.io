@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f8f8;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+  color: #606060;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1 {
+  color: #303030;
+  margin: 0 0 .5em;
+  padding: 0;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0 0 .5em;
+  opacity: .5;
+  font-weight: 300;
+}
+
+small {
+  font-size: 75%;
+  opacity: .5;
+}
+
+.content {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.s00001, .s00002, .s00003, .s00004, .s00005, 
+.s00006, .s00007, .s00008, .s00009, .s00010, 
+.s00011, .s00012, .s00013, .s00014, .s00015, 
+.s00016, .s00017, .s00018, .s00019, .s00020, 
+.s00021, .s00022, .s00023, .s00024, .s00025, 
+.s00026, .s00027, .s00028, .s00029, .s00030, 
+.s00031, .s00032, .s00033, .s00034, .s00035, 
+.s00036, .s00037, .s00038, .s00039, .s00040, 
+.s00041, .s00042 {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  background: url('./spritejpg.jpg') no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+ 
+.s00001 { background-position: -0px -0px; width: 800px; height: 600px; }
+.s00002 { background-position: -800px -0px; width: 800px; height: 600px; }
+.s00003 { background-position: -1600px -0px; width: 800px; height: 600px; }
+.s00004 { background-position: -2400px -0px; width: 800px; height: 600px; }
+.s00005 { background-position: -3200px -0px; width: 800px; height: 600px; }
+.s00006 { background-position: -4000px -0px; width: 800px; height: 600px; }
+.s00007 { background-position: -0px -600px; width: 800px; height: 600px; }
+.s00008 { background-position: -800px -600px; width: 800px; height: 600px; }
+.s00009 { background-position: -1600px -600px; width: 800px; height: 600px; }
+.s00010 { background-position: -2400px -600px; width: 800px; height: 600px; }
+.s00011 { background-position: -3200px -600px; width: 800px; height: 600px; }
+.s00012 { background-position: -4000px -600px; width: 800px; height: 600px; }
+.s00013 { background-position: -0px -1200px; width: 800px; height: 600px; }
+.s00014 { background-position: -800px -1200px; width: 800px; height: 600px; }
+.s00015 { background-position: -1600px -1200px; width: 800px; height: 600px; }
+.s00016 { background-position: -2400px -1200px; width: 800px; height: 600px; }
+.s00017 { background-position: -3200px -1200px; width: 800px; height: 600px; }
+.s00018 { background-position: -4000px -1200px; width: 800px; height: 600px; }
+.s00019 { background-position: -0px -1800px; width: 800px; height: 600px; }
+.s00020 { background-position: -800px -1800px; width: 800px; height: 600px; }
+.s00021 { background-position: -1600px -1800px; width: 800px; height: 600px; }
+.s00022 { background-position: -2400px -1800px; width: 800px; height: 600px; }
+.s00023 { background-position: -3200px -1800px; width: 800px; height: 600px; }
+.s00024 { background-position: -4000px -1800px; width: 800px; height: 600px; }
+.s00025 { background-position: -0px -2400px; width: 800px; height: 600px; }
+.s00026 { background-position: -800px -2400px; width: 800px; height: 600px; }
+.s00027 { background-position: -1600px -2400px; width: 800px; height: 600px; }
+.s00028 { background-position: -2400px -2400px; width: 800px; height: 600px; }
+.s00029 { background-position: -3200px -2400px; width: 800px; height: 600px; }
+.s00030 { background-position: -4000px -2400px; width: 800px; height: 600px; }
+.s00031 { background-position: -0px -3000px; width: 800px; height: 600px; }
+.s00032 { background-position: -800px -3000px; width: 800px; height: 600px; }
+.s00033 { background-position: -1600px -3000px; width: 800px; height: 600px; }
+.s00034 { background-position: -2400px -3000px; width: 800px; height: 600px; }
+.s00035 { background-position: -3200px -3000px; width: 800px; height: 600px; }
+.s00036 { background-position: -4000px -3000px; width: 800px; height: 600px; }
+.s00037 { background-position: -0px -3600px; width: 800px; height: 600px; }
+.s00038 { background-position: -800px -3600px; width: 800px; height: 600px; }
+.s00039 { background-position: -1600px -3600px; width: 800px; height: 600px; }
+.s00040 { background-position: -2400px -3600px; width: 800px; height: 600px; }
+.s00041 { background-position: -3200px -3600px; width: 800px; height: 600px; }
+.s00042 { background-position: -4000px -3600px; width: 800px; height: 600px; }
